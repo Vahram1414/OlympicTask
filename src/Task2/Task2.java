@@ -1,3 +1,9 @@
+package Task2;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.BitSet;
+
 //Ваша задача состоит в том, чтобы найти отсутствующее число среди всех чисел от 1 до n, кроме одного.
 //        Ввод
 //        Первая строка содержит целое число n.
@@ -16,15 +22,37 @@
 //        Вывод:
 //        4
 
-package Task2;
+//package Task2;
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Task2 {
-    static int n = 5;
-    static int sum = 15;
-    public static void main(String[] args) {
-        System.out.println(sum - Arrays.stream(ArrayDigits).sum());
-        };
-        static int ArrayDigits[] = {2, 3, 1, 5};
-    }
+    static int n = 7;
 
+    public static void main(String[] args) {
+//        int[] array = {1, 3, 2, 5};
+        int[] array = new int[n];
+        array[0] = 1;
+        array[1] = 3;
+        array[2] = 2;
+        array[3] = 5;
+        int sum = 0;
+        int arraySum = Arrays.stream(array).sum();
+        Arrays.stream(array).sum();
+        System.out.println(Arrays.stream(array).sum());
+        for(int i = 1; i <= n; i++) {
+            sum = sum + i;
+        }
+        System.out.println(sum);
+        System.out.println(sum-Arrays.stream(array).sum());
+
+//        Arrays.stream(array).sum();
+        }
+
+}
