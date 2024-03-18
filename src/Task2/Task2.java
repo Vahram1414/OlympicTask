@@ -36,7 +36,6 @@ public class Task2 {
     static int n = 7;
 
     public static void main(String[] args) {
-//        int[] array = {1, 3, 2, 5};
         int[] array = new int[n];
         array[0] = 1;
         array[1] = 3;
@@ -45,14 +44,10 @@ public class Task2 {
         int sum = 0;
         int arraySum = Arrays.stream(array).sum();
         Arrays.stream(array).sum();
-        System.out.println(Arrays.stream(array).sum());
         for(int i = 1; i <= n; i++) {
             sum = sum + i;
         }
-        System.out.println(sum);
         System.out.println(sum-Arrays.stream(array).sum());
-
-//        Arrays.stream(array).sum();
         }
 
 }
