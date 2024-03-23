@@ -33,21 +33,44 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Task2 {
-    static int n = 7;
+    static int n = 5;
+    static int sum = 0;
 
     public static void main(String[] args) {
         int[] array = new int[n];
-        array[0] = 1;
-        array[1] = 3;
-        array[2] = 2;
-        array[3] = 5;
-        int sum = 0;
-        int arraySum = Arrays.stream(array).sum();
-        Arrays.stream(array).sum();
-        for(int i = 1; i <= n; i++) {
-            sum = sum + i;
+        for (int i = 1; i < array.length; i++) {
+            array[i] = i;
         }
-        System.out.println(sum-Arrays.stream(array).sum());
+        int arraySum = n*(n+1)/2;
+        System.out.println(arraySum);
+        System.out.println(arraySum-Arrays.stream(array).sum());
         }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//            int sum = 0;
+//            int arraySum = Arrays.stream(array).sum();
+//            for (int i = 1; i <= n; i++) {
+//                sum = sum + i;
+//            }
+        }
+
+
+
