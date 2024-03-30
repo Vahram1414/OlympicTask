@@ -23,7 +23,6 @@ import java.util.Arrays;
 public class Task3 {
     static int n = 7;
     static int f = 0;
-//    static  int i = 1;
 
     public static void main(String[] args) {
         int[] array = new int[n];
@@ -31,7 +30,7 @@ public class Task3 {
         Random r = new Random();
         for (int i = 1; i < n; i++) {
             System.out.println(array[i] = r.nextInt(n) + 1);
-//            System.out.println(Arrays.toString(array));
+
             if (array[i] < array[i-1]) {
                 f = array[i-1] - array[i];
                 array[i] = array[i] + f;
@@ -41,20 +40,7 @@ public class Task3 {
             }
             System.out.println("Получаем");
             System.out.println(Arrays.toString(array));
-
-
-
-//        for (int i = 0; i < n; i++) {
-////            System.out.println(array[i]);
-//            if (array[i] < array[i]-1) {
-//                f = f + ((array[i]-1) - array[i]);
-//                System.out.println(f + array[i]);
-//            } else {
-////                array[i]>= array[i]-1
-//                System.out.println("Идем дальше");
-
         }
-//            System.out.println(array[i]);
     }
 }
 
