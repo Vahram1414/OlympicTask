@@ -1,4 +1,5 @@
-package Task3;//Вам дан массив из n целых чисел. Вы хотите изменить массив так, чтобы он увеличивался, т. е. каждый элемент был по крайней мере такого же размера, как предыдущий элемент.
+package Task3;
+//Вам дан массив из n целых чисел. Вы хотите изменить массив так, чтобы он увеличивался, т. е. каждый элемент был по крайней мере такого же размера, как предыдущий элемент.
 //        На каждом ходу вы можете увеличить значение любого элемента на единицу. Какое минимальное количество ходов необходимо?
 //        Вход
 //        Первая строка ввода содержит целое число n: размер массива.
@@ -17,23 +18,45 @@ package Task3;//Вам дан массив из n целых чисел. Вы х
 //
 //        Выход:
 //        5
-
+import java.util.Random;
+import java.util.Arrays;
 public class Task3 {
-    static int n = 5;
+    static int n = 7;
     static int f = 0;
+//    static  int i = 1;
+
     public static void main(String[] args) {
         int[] array = new int[n];
-        array[0] = 3;
-        array[1] = 2;
-        array[2] = 5;
-        array[3] = 1;
-        array[4] = 7;
 
-        for(int i = 0; i < n; i++) {
-            if(array[i]<array[i-1]) {
-               f = f + array[i-1]-array[i];
+        Random r = new Random();
+        for (int i = 1; i < n; i++) {
+            System.out.println(array[i] = r.nextInt(n) + 1);
+//            System.out.println(Arrays.toString(array));
+            if (array[i] < array[i-1]) {
+                f = array[i-1] - array[i];
+                array[i] = array[i] + f;
+                System.out.println("Результат" +  + f);
+            } else {
+            System.out.println(array[i]);
             }
-        }
-    }
+            System.out.println("Получаем");
+            System.out.println(Arrays.toString(array));
 
+
+
+//        for (int i = 0; i < n; i++) {
+////            System.out.println(array[i]);
+//            if (array[i] < array[i]-1) {
+//                f = f + ((array[i]-1) - array[i]);
+//                System.out.println(f + array[i]);
+//            } else {
+////                array[i]>= array[i]-1
+//                System.out.println("Идем дальше");
+
+        }
+//            System.out.println(array[i]);
+    }
 }
+
+
+
