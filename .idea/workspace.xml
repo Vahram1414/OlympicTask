@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911d9d92-fd42-405d-83f0-0f4bf9e5b7fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Task5/Task5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3/Task3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2dSHHfNGFBpgfH2w9jPdxoNTpQ4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,20 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task4">
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1.Task1" />
-      <module name="OlympicTasks2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task5">
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task2.Task2" />
       <module name="OlympicTasks2" />
@@ -88,6 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.Task5" />
+      <module name="OlympicTasks2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unit1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.Unit1" />
       <module name="OlympicTasks2" />
@@ -103,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Unit1" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711790387056</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Task4 final version">
+      <option name="closed" value="true" />
+      <created>1715625868652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715625868652</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +197,7 @@
     <MESSAGE value="Task2 final version" />
     <MESSAGE value="Task3" />
     <MESSAGE value="Task3 clean copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task3 clean copy" />
+    <MESSAGE value="Task4 final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task4 final version" />
   </component>
 </project>

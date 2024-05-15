@@ -34,7 +34,7 @@ public class Task3 {
             if (array[i] < array[i-1]) {
                 f = array[i-1] - array[i];
                 array[i] = array[i] + f;
-                System.out.println("Результат" +  + f);
+                System.out.println("Результат" + f);
             } else {
             System.out.println(array[i]);
             }
