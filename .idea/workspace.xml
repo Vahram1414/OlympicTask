@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911d9d92-fd42-405d-83f0-0f4bf9e5b7fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task5/Task5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task5/Task5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715625868652</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task1 final version">
+      <option name="closed" value="true" />
+      <created>1715802961648</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715802961648</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +205,7 @@
     <MESSAGE value="Task3" />
     <MESSAGE value="Task3 clean copy" />
     <MESSAGE value="Task4 final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task4 final version" />
+    <MESSAGE value="Task1 final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task1 final version" />
   </component>
 </project>
